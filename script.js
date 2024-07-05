@@ -72,6 +72,7 @@ function resetCalculator(){
     peopleInput.value='0'
     tipAmount.innerText=''
     totalAmount.innerText=''
+    customTip.value=''
 }
 
 reset.addEventListener('click',resetCalculator)
